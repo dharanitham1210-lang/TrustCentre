@@ -1,0 +1,30 @@
+The platform is designed around the following major modules:
+1. Authentication
+Secure login interface for authorized users.
+2. Monitoring Dashboard
+Provides an overview of training-centre monitoring information.
+3. Attendance Monitoring
+Displays attendance-related data and identifies potential irregularities.
+4. Infrastructure Compliance
+Provides centre-level infrastructure and facility compliance information.
+5. Geographic Monitoring
+Interactive Tamil Nadu map for visualizing training centres geographically.
+6. Reports & Analytics
+Provides visual insights and monitoring statistics for administrators.
+7. Offline Data Layer
+Uses IndexedDB to maintain local application data during temporary network interruptions.
+
+
+##Security considerations:
+Security is considered throughout the application design.
+Key considerations include:
+- Type-safe application development
+- Input validation
+- Controlled authentication flow
+- Client-side state isolation
+- Secure handling of application configuration
+- Avoiding sensitive information in source control
+- Environment variables for configurable values
+- Regular dependency updates
+- Automated testing
+Never commit secrets, API keys, passwords, or private credentials to the repository.
