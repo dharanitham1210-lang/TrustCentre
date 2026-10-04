@@ -1,0 +1,39 @@
+| Layer | Technology |
+
+| UI Library | React 19 |
+| Language | TypeScript 6 |
+| Bundler / Dev Server | Vite 8 |
+| Routing | React Router DOM 7 |
+| Router Mode | HashRouter |
+
+
+State & Data
+Layer	| Technology
+Global |  State	Zustand 5
+Offline | Storage	IndexedDB via idb
+
+Styling
+Layer | 	Technology
+CSS Framework	- Tailwind CSS 4
+Tailwind Integration-	@tailwindcss/vite
+Custom Design System -	Vanilla CSS
+UI Style	- Glassmorphism
+Fonts - 	Bricolage Grotesque + Figtree
+
+| Layer | Technology |
+|---|---|
+| Tamil Nadu Map | D3-geo |
+| Map Zoom | D3-zoom |
+| Map Interaction | D3-selection |
+| Icons | Lucide React |
+
+
+| Layer | Technology |
+|---|---|
+| Linter | OxLint |
+| PWA | vite-plugin-pwa |
+| Service Worker | Workbox |
+| Type Checking | TypeScript `tsc -b` |
+| Type Safety | Strict Mode |
+
+
