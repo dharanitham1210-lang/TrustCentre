@@ -1,0 +1,6 @@
+D3.js is used to provide interactive geographic visualization of Tamil Nadu.
+The visualization layer uses:
+- d3-geo
+- d3-zoom
+- d3-selection
+This allows monitoring data to be represented geographically and helps authorities identify regional patterns.
